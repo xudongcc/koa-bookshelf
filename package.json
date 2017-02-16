@@ -5,8 +5,21 @@
   "scripts": {
     "test": "nodemon --harmony-async-await test/test.js"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xudongcc/koa-bookshelf.git"
+  },
+  "keywords": [
+    "koa",
+    "bookshelf",
+    "knex",
+    "orm"
+  ],
+  "author": "xudong.cc",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xudongcc/koa-bookshelf/issues"
+  },
   "dependencies": {
     "bookshelf": "^0.10.3",
     "knex": "^0.12.6"
